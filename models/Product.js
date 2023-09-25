@@ -4,6 +4,8 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 // Initialize Product model (table) by extending off Sequelize's Model class
+const Category = require('./Category');
+
 class Product extends Model {}
 
 // set up fields and rules for Product model
