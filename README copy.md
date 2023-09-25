@@ -254,12 +254,7 @@ You are required to submit BOTH of the following for review:
 
 * A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.
 
-* The URL of the GitHub repository: https://github.com/marksantander/Module13
+* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
 
-## Credits
-
-bard.google.com
-starter code https://github.com/coding-boot-camp/fantastic-umbrella
-npmjs.com
 ---
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
