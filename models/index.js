@@ -12,6 +12,15 @@ const ProductTag = require('./ProductTag');
 
 // Tags belongToMany Products (through ProductTag)
 
+sync function getCategories() {
+  const categories = await Category.findAll();
+  return categories;
+}
+
+const categories = await getCategories();
+
+console.log(categories);
+
 module.exports = {
   Product,
   Category,
