@@ -16,7 +16,6 @@ Product.init(
   },
   product_names: {
       type: DataTypes.STRING,
-      c
   },
   price: {
       type: DataTypes.DECIMAL(10, 2),
