@@ -1,13 +1,14 @@
 const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection');
+const { not } = require('sequelize/types/lib/operators');
 
 class ProductTag extends Model {}
 
 ProductTag.init(
   {
     id: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.INTEGER ,
       primaryKey: true,
       autoIncrement: true,
       allowNull: false
@@ -23,9 +24,10 @@ ProductTag.init(
       type: DataTypes.INTEGER,
       references: {
           model: 'tag',
-          key: 'id'
-      }
+          key: 'id',
   },
+  allowNull: true,
+},
   allowNull: false,
 },
 {
